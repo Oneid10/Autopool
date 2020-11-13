@@ -1258,62 +1258,7 @@ $(document).ready(function () {
 
 
 
-    // get variable values
-    myContractInstance.methods.pool1currUserID().call().then(function (result) {
-        $('.Pool1count').html(result);
-    });
-
-    myContractInstance.methods.pool2currUserID().call().then(function (result) {
-        $('.Pool2count').html(result);
-    });
-
-    myContractInstance.methods.pool3currUserID().call().then(function (result) {
-        $('.Pool3count').html(result);
-    });
-
-    myContractInstance.methods.pool4currUserID().call().then(function (result) {
-        $('.Pool4count').html(result);
-    });
-
-
-
-    myContractInstance.methods.pool5currUserID().call().then(function (result) {
-        $('.Pool5count').html(result);
-    });
-
-    myContractInstance.methods.pool6currUserID().call().then(function (result) {
-
-        $('.Pool6count').html(result);
-        $('.pool6_current_address').html("<a href=https://etherscan.io/address/" + result + " target=_blank>" + result + "</a>");
-    });
-
-    myContractInstance.methods.pool7currUserID().call().then(function (result) {
-
-        $('.Pool7count').html(result);
-        $('.pool7_current_address').html("<a href=https://etherscan.io/address/" + result + " target=_blank>" + result + "</a>");
-    });
-
-    myContractInstance.methods.pool8currUserID().call().then(function (result) {
-
-        $('.Pool8count').html(result);
-        $('.pool8_current_address').html("<a href=https://etherscan.io/address/" + result + " target=_blank>" + result + "</a>");
-    });
-
-    myContractInstance.methods.pool9currUserID().call().then(function (result) {
-
-        $('.Pool9count').html(result);
-        $('.pool9_current_address').html("<a href=https://etherscan.io/address/" + result + " target=_blank>" + result + "</a>");
-    });
-
-    myContractInstance.methods.pool10currUserID().call().then(function (result) {
-
-        $('.Pool10count').html(result);
-        $('.pool10_current_address').html("<a href=https://etherscan.io/address/" + result + " target=_blank>" + result + "</a>");
-    });
-
-
-
-
+    
 
 
 
